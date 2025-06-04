@@ -1,0 +1,463 @@
+2025-06-04 02:00:06,104 - INFO - Found the url's
+2025-06-04 02:00:07,337 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:00:20,863 - ERROR - Error while checking https://fbref.com/en/comps/: 'tuple' object has no attribute 'findall'
+2025-06-04 02:00:37,576 - INFO - Found the url's
+2025-06-04 02:00:38,833 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:00:56,229 - ERROR - Error while checking https://fbref.com/en/comps/: 'tuple' object has no attribute 'findall'
+2025-06-04 02:00:59,310 - ERROR - Error while checking https://fbref.com/en/comps/season/1930: 'tuple' object has no attribute 'findall'
+2025-06-04 02:01:38,165 - INFO - Found the url's
+2025-06-04 02:01:39,410 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:02:02,417 - ERROR - Error while checking https://fbref.com/en/comps/: 'tuple' object has no attribute 'compile'
+2025-06-04 02:02:45,967 - INFO - Found the url's
+2025-06-04 02:02:47,315 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:02:57,166 - INFO - Pattern found in page source.
+2025-06-04 02:07:17,347 - INFO - Found the url's
+2025-06-04 02:07:18,661 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:07:35,746 - INFO - Pattern found in page source.
+2025-06-04 02:07:35,774 - ERROR - Error while checking https://fbref.com/en/comps/: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723B90998]
+	(No symbol) [0x00007FF723B93A0C]
+	(No symbol) [0x00007FF723B93ADF]
+	(No symbol) [0x00007FF723BDED77]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723C32577]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:08:00,357 - INFO - Found the url's
+2025-06-04 02:08:01,663 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:08:11,448 - INFO - Pattern found in page source.
+2025-06-04 02:08:11,496 - ERROR - Error while checking https://fbref.com/en/comps/: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723B90998]
+	(No symbol) [0x00007FF723B93A0C]
+	(No symbol) [0x00007FF723B93ADF]
+	(No symbol) [0x00007FF723BDED77]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723C32577]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:11:54,283 - INFO - Found the url's
+2025-06-04 02:11:55,525 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:12:14,360 - INFO - Pattern found in page source.
+2025-06-04 02:12:14,401 - ERROR - Error while checking https://fbref.com/en/comps/: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723B90998]
+	(No symbol) [0x00007FF723B93A0C]
+	(No symbol) [0x00007FF723B93ADF]
+	(No symbol) [0x00007FF723BDED77]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723C32577]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:13:00,212 - INFO - Found the URLs
+2025-06-04 02:13:01,485 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:13:14,262 - INFO - Possible table classes found: ['table', 'table', 'table-row', 'table', 'table', 'notables', 'table', 'notables', 'notables', 'Tablet', 'table', 'tablet', 'tablet', 'tablet', 'tablet', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_count', 'tablet', 'tablet']
+2025-06-04 02:13:14,979 - INFO - Table found successfully.
+2025-06-04 02:14:41,182 - INFO - Found the URLs
+2025-06-04 02:14:42,441 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:14:55,790 - INFO - Table found successfully.
+2025-06-04 02:18:18,914 - INFO - Found the URLs
+2025-06-04 02:18:20,231 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:18:42,408 - INFO - Table found successfully.
+2025-06-04 02:19:26,173 - INFO - Found the URLs
+2025-06-04 02:19:27,532 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:19:38,021 - INFO - Table found successfully.
+2025-06-04 02:20:56,487 - INFO - Found the URLs
+2025-06-04 02:20:57,792 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:21:08,747 - INFO - Table found successfully.
+2025-06-04 02:22:52,446 - INFO - Found the URLs
+2025-06-04 02:22:53,807 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:23:04,657 - INFO - Table found successfully.
+2025-06-04 02:23:07,167 - INFO - Table found successfully.
+2025-06-04 02:26:17,090 - INFO - Found the URLs
+2025-06-04 02:26:18,324 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:26:30,137 - INFO - Table found successfully.
+2025-06-04 02:27:33,724 - INFO - Found the URLs
+2025-06-04 02:27:34,967 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:27:46,621 - INFO - No valid table found on the page.
+2025-06-04 02:28:48,072 - INFO - Found the URLs
+2025-06-04 02:28:49,250 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:29:07,515 - INFO - Possible table classes found: ['table', 'table', 'table-row', 'table', 'table', 'notables', 'table', 'notables', 'notables', 'Tablet', 'table', 'tablet', 'tablet', 'tablet', 'tablet', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_count', 'tablet', 'tablet']
+2025-06-04 02:29:32,988 - INFO - Extracted headers from all tables.
+2025-06-04 02:31:13,773 - INFO - Found the URLs
+2025-06-04 02:31:15,065 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:31:25,199 - INFO - Possible table classes found: ['table', 'table', 'table-row', 'table', 'table', 'notables', 'table', 'notables', 'notables', 'Tablet', 'table', 'tablet', 'tablet', 'tablet', 'tablet', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_count', 'tablet', 'tablet']
+2025-06-04 02:31:27,010 - INFO - No valid table headers found on the page.
+2025-06-04 02:31:48,415 - INFO - Found the URLs
+2025-06-04 02:31:49,852 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:32:00,573 - INFO - Possible table classes found: ['table', 'table', 'table-row', 'table', 'table', 'notables', 'table', 'notables', 'notables', 'Tablet', 'table', 'tablet', 'tablet', 'tablet', 'tablet', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_count', 'tablet', 'tablet']
+2025-06-04 02:32:02,512 - INFO - No valid table headers found on the page.
+2025-06-04 02:33:07,271 - INFO - Found the URLs
+2025-06-04 02:33:08,542 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:33:19,362 - INFO - Possible table classes found: ['table', 'table', 'table-row', 'table', 'table', 'notables', 'table', 'notables', 'notables', 'Tablet', 'table', 'tablet', 'tablet', 'tablet', 'tablet', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_wrapper', 'table', 'table_container', 'table', 'Table', 'table', 'table_count', 'tablet', 'tablet']
+2025-06-04 02:33:47,558 - INFO - Extracted headers from all tables.
+2025-06-04 02:36:20,431 - INFO - Found the URLs
+2025-06-04 02:36:21,693 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:37:16,643 - INFO - Found the URLs
+2025-06-04 02:37:17,858 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:39:31,600 - INFO - Found the URLs
+2025-06-04 02:39:32,935 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:39:48,750 - INFO - Total tables found: 18
+2025-06-04 02:39:54,848 - INFO - Extracted headers from all tables.
+2025-06-04 02:41:20,549 - INFO - Found the URLs
+2025-06-04 02:41:21,874 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:41:36,875 - ERROR - Error while checking https://fbref.com/en/comps/: object of type 'WebElement' has no len()
+2025-06-04 02:41:53,744 - INFO - Found the URLs
+2025-06-04 02:41:54,981 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:42:13,428 - INFO - Total tables found: 18
+2025-06-04 02:42:17,597 - INFO - Extracted headers from all tables.
+2025-06-04 02:42:20,422 - INFO - Total tables found: 10
+2025-06-04 02:42:20,799 - INFO - Extracted headers from all tables.
+2025-06-04 02:46:39,989 - INFO - Found the URLs
+2025-06-04 02:46:41,252 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:46:51,960 - INFO - Total tables found: 18
+2025-06-04 02:47:00,441 - INFO - Extracted headers from all tables.
+2025-06-04 02:47:13,876 - INFO - Found the URLs
+2025-06-04 02:47:15,126 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:47:30,804 - INFO - Total tables found: 18
+2025-06-04 02:47:39,717 - INFO - Extracted headers from all tables.
+2025-06-04 02:47:41,747 - INFO - Total tables found: 10
+2025-06-04 02:47:42,103 - INFO - Extracted headers from all tables.
+2025-06-04 02:50:49,388 - INFO - Found the URLs
+2025-06-04 02:50:50,714 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:51:01,147 - INFO - Tables found, Printing.......
+2025-06-04 02:51:10,841 - INFO - Extracted headers from all tables.
+2025-06-04 02:51:13,117 - INFO - Tables found, Printing.......
+2025-06-04 02:51:13,847 - INFO - Extracted headers from all tables.
+2025-06-04 02:51:15,826 - INFO - Tables found, Printing.......
+2025-06-04 02:51:16,396 - INFO - Extracted headers from all tables.
+2025-06-04 02:59:12,143 - INFO - Found the URLs
+2025-06-04 02:59:13,437 - INFO - Initialized Chrome WebDriver.
+2025-06-04 02:59:20,034 - INFO - Tables found, Printing.......
+2025-06-04 02:59:20,118 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,177 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,230 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,287 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,335 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,378 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,419 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,470 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:20,528 - ERROR - Error extracting headers from table: Message: no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF723DBCF25+75717]
+	GetHandleVerifier [0x00007FF723DBCF80+75808]
+	(No symbol) [0x00007FF723B88F9A]
+	(No symbol) [0x00007FF723BDF4C6]
+	(No symbol) [0x00007FF723BDF77C]
+	(No symbol) [0x00007FF723BD1D7C]
+	(No symbol) [0x00007FF723C073BF]
+	(No symbol) [0x00007FF723BD1C46]
+	(No symbol) [0x00007FF723C07590]
+	(No symbol) [0x00007FF723C2F39C]
+	(No symbol) [0x00007FF723C07153]
+	(No symbol) [0x00007FF723BD0421]
+	(No symbol) [0x00007FF723BD11B3]
+	GetHandleVerifier [0x00007FF7240BD6FD+3223453]
+	GetHandleVerifier [0x00007FF7240B7CA2+3200322]
+	GetHandleVerifier [0x00007FF7240D5AD3+3322739]
+	GetHandleVerifier [0x00007FF723DD69FA+180890]
+	GetHandleVerifier [0x00007FF723DDE0FF+211359]
+	GetHandleVerifier [0x00007FF723DC5274+109332]
+	GetHandleVerifier [0x00007FF723DC5422+109762]
+	GetHandleVerifier [0x00007FF723DABA39+4825]
+	BaseThreadInitThunk [0x00007FFAB4FE54E0+16]
+	RtlUserThreadStart [0x00007FFAB6D2485B+43]
+
+2025-06-04 02:59:39,721 - ERROR - Error extracting headers from table: all arrays must be same length
+2025-06-04 02:59:44,080 - ERROR - Error extracting headers from table: all arrays must be same length
+2025-06-04 02:59:46,049 - ERROR - Error extracting headers from table: all arrays must be same length
+2025-06-04 02:59:49,173 - ERROR - Error extracting headers from table: all arrays must be same length
+2025-06-04 02:59:53,597 - ERROR - Error extracting headers from table: all arrays must be same length
+2025-06-04 02:59:54,572 - ERROR - Error extracting headers from table: all arrays must be same length
+2025-06-04 02:59:54,572 - INFO - Extracted headers from all tables.
+2025-06-04 03:01:31,200 - INFO - Found the URLs
+2025-06-04 03:01:32,567 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:01:46,279 - INFO - Tables found, extracting data...
+2025-06-04 03:02:19,514 - INFO - Extracted data successfully.
+2025-06-04 03:04:07,883 - INFO - Found the URLs
+2025-06-04 03:04:09,286 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:04:20,123 - INFO - Tables found, extracting data...
+2025-06-04 03:04:54,251 - INFO - Extracted data successfully.
+2025-06-04 03:05:21,065 - INFO - Found the URLs
+2025-06-04 03:05:22,217 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:05:30,234 - INFO - Tables found, extracting data...
+2025-06-04 03:06:11,239 - INFO - Extracted data successfully.
+2025-06-04 03:06:11,240 - ERROR - Error while checking https://fbref.com/en/comps/: Index(...) must be called with a collection of some kind, 'Competition Name' was passed
+2025-06-04 03:06:42,133 - INFO - Found the URLs
+2025-06-04 03:06:43,375 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:08:53,765 - INFO - Tables found, extracting data...
+2025-06-04 03:09:29,040 - INFO - Extracted data successfully.
+2025-06-04 03:09:29,041 - ERROR - Error while checking https://fbref.com/en/comps/: all arrays must be same length
+2025-06-04 03:16:25,968 - INFO - Found the URLs
+2025-06-04 03:16:27,172 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:16:59,172 - ERROR - Error extracting data from table: 12 columns passed, passed data had 6 columns
+2025-06-04 03:22:57,133 - INFO - Found the URLs
+2025-06-04 03:22:58,421 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:23:26,999 - ERROR - Error extracting data from table: 12 columns passed, passed data had 6 columns
+2025-06-04 03:28:37,733 - INFO - Found the URLs
+2025-06-04 03:28:39,177 - INFO - Initialized Chrome WebDriver.
+2025-06-04 03:29:13,118 - ERROR - Error extracting data from table: 12 columns passed, passed data had 6 columns

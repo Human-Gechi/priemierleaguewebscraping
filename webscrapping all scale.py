@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from dotenv import load_dotenv
 import os
 import re
-
+# Importing necessary libraries
 # Load environment variables
 load_dotenv()
 
@@ -42,17 +42,32 @@ class Allscale:
         service = Service(driver_path)  # Initializing WebDriver path in the base class
         self.driver = webdriver.Chrome(service=service, options=options)
         logger.info("Initialized Chrome WebDriver.")
+
     def check_url(self, url):
         try:
             self.driver.get(url)
             print(f"Checking URL: {url}")
+            time.sleep(3)  # Time for the page to load in the website
 
-            # Find all tables on the page
-            tables = self.driver.find_elements(By.TAG_NAME, "table")  # Retrieves **all** tables
-            dataframes = []
+            # Find all h2 headers and tables in each webpage
+            h2_elements = self.driver.find_elements(By.TAG_NAME, "h2")
+            tables = self.driver.find_elements(By.TAG_NAME, "table")
 
-            for table in tables:  # Loop through each table
+            # Get the locations of h2s and tables
+            h2_locations = [(h2.location['y'], h2.text) for h2 in h2_elements]
+
+            self.dataframes = []
+
+            for table in tables:
                 try:
+                    table_y = table.location['y']
+                    # Find the closest preceding h2
+                    preceding_h2 = ""
+                    for y, text in reversed(h2_locations):
+                        if y < table_y:
+                            preceding_h2 = text
+                            break
+
                     headers = []
                     for th in table.find_elements(By.TAG_NAME, "th"):
                         header_text = th.text.strip()
@@ -61,7 +76,7 @@ class Allscale:
 
                     if headers:
                         rows = table.find_element(By.TAG_NAME, "tbody").find_elements(By.TAG_NAME, "tr")
-                        data = []  # List to store row data
+                        data = []
 
                         for row in rows:
                             try:
@@ -73,29 +88,26 @@ class Allscale:
                             full_row = [data_th] + cells
                             data.append(full_row)
 
-                        # Create DataFrame for this table
                         df = pd.DataFrame(data, columns=headers)
-                        dataframes.append(df)
+                        self.dataframes.append((preceding_h2, df))
 
                 except Exception as e:
                     logger.error(f"Error extracting data from table: {e}")
                     print(f"Error extracting data from table: {e}")
                     continue
-            for i, df in enumerate(dataframes):
-                 filename = f"table_{i+1}.csv"
-                 df.to_csv(filename, index=False)
-                 print(f"Saved {filename}")
 
-            return dataframes
+            for name_of_table, df in self.dataframes:
+                filename = f"{name_of_table}.csv"
+                df.to_csv(filename, index=False)
+                print(f"Saved {filename}")
 
-
+            logger.info(f"Processed {url} successfully.")
+            return f"Processed {url} successfully. Data saved to CSV files."
         except Exception as e:
             logger.error(f"Error while checking {url}: {e}")
             print(f"Error while checking {url}: {e}")
-            return "Error: Unable to process page."
-
-
-# Main Execution
+        return "Error: Unable to process page."
+# Main detail init
 if __name__ == "__main__":
     driver_path = r"C:\\Users\\HP\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe"
     scraper = Allscale(driver_path)

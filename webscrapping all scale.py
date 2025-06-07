@@ -25,6 +25,18 @@ logger = logging.getLogger(__name__)
 with open("selenium_scraped.txt", "r") as file:
     urls = [line.strip() for line in file if line.strip()]
 logger.info("Found the URLs")
+def find_url_by_keywords(filepath, *keywords):
+        links = []
+        with open(filepath, 'r') as file:
+            for line in file:
+                if "/comps/" in line:
+                    # Extract everything after "/comps/"
+                    suffix = line.split("/comps/", 1)[1]
+
+                    normalized = re.sub(r'[^a-z0-9]', '', suffix.lower())
+                    if all(keyword.lower() in normalized for keyword in keywords):
+                        links.append(line.strip())
+        return links
 class Allscale:
     def __init__(self, driver_path):
         options = Options()
@@ -107,17 +119,18 @@ class Allscale:
             logger.error(f"Error while checking {url}: {e}")
             print(f"Error while checking {url}: {e}")
         return "Error: Unable to process page."
-# Main detail init
+
 if __name__ == "__main__":
     driver_path = r"C:\\Users\\HP\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe"
     scraper = Allscale(driver_path)
+    user_input = input("Enter keywords to search for URLs (separated by spaces): ")
+    user_input = user_input.split()  # Split input into a list of keywords
 
-    # Get number of URLs from user
-    num_urls = int(input("How many URLs would you like to check? "))
-    num_urls = min(num_urls, len(urls))
-
-    for i in range(num_urls):  # Process users specified number of URLs
-        result = scraper.check_url(urls[i])
-        print(result)  # Print output for each URL in the terminal
-
-    scraper.driver.quit() #closing webbrowser
+    urls = find_url_by_keywords("selenium_scraped.txt", *user_input)
+    try:
+        for u in urls:
+            result = scraper.check_url(u)
+            print(result)
+        logger.info("All URLs processed.")
+    finally:
+        scraper.driver.quit()  # closing webbrowser

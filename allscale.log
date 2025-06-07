@@ -1576,3 +1576,17 @@ Stacktrace:
 2025-06-07 20:55:12,970 - INFO - Processed https://fbref.com/en/comps/season/1978 successfully.
 2025-06-07 20:55:18,623 - INFO - Processed https://fbref.com/en/comps/season/1978-1979 successfully.
 2025-06-07 20:55:18,624 - INFO - All URLs processed.
+2025-06-07 21:24:33,611 - INFO - Found the URLs
+2025-06-07 21:24:35,079 - INFO - Initialized Chrome WebDriver.
+2025-06-07 21:26:22,870 - INFO - Found the URLs
+2025-06-07 21:26:24,285 - INFO - Initialized Chrome WebDriver.
+2025-06-07 21:28:58,731 - INFO - Found the URLs
+2025-06-07 21:29:00,243 - INFO - Initialized Chrome WebDriver.
+2025-06-07 21:31:06,958 - INFO - Found the URLs
+2025-06-07 21:31:08,336 - INFO - Initialized Chrome WebDriver.
+2025-06-07 21:31:37,016 - INFO - Processed https://fbref.com/en/comps/season/1930 successfully.
+2025-06-07 21:31:44,160 - INFO - Processed https://fbref.com/en/comps/season/1930-1931 successfully.
+2025-06-07 21:31:44,161 - INFO - All URLs processed.
+2025-06-07 21:32:38,953 - INFO - Found the URLs
+2025-06-07 21:32:40,150 - INFO - Initialized Chrome WebDriver.
+2025-06-07 21:32:49,887 - INFO - No URLs found with the given keywords.

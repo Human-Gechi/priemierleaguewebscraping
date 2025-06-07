@@ -10,7 +10,7 @@ import os
 import re
 # Importing necessary libraries
 # Load environment variables
-load_dotenv()
+
 
 # Seting up logging
 logging.basicConfig(
@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 with open("selenium_scraped.txt", "r") as file:
     urls = [line.strip() for line in file if line.strip()]
 logger.info("Found the URLs")
-def find_url_by_keywords(filepath, *keywords):
-        links = []
+def find_url_by_keywords(filepath, *keywords, self):
+        self.links = []
         with open(filepath, 'r') as file:
             for line in file:
                 if "/comps/" in line:
@@ -35,8 +35,8 @@ def find_url_by_keywords(filepath, *keywords):
 
                     normalized = re.sub(r'[^a-z0-9]', '', suffix.lower())
                     if all(keyword.lower() in normalized for keyword in keywords):
-                        links.append(line.strip())
-        return links
+                        self.links.append(line.strip())
+        return self.links
 class Allscale:
     def __init__(self, driver_path):
         options = Options()
@@ -100,18 +100,18 @@ class Allscale:
                             full_row = [data_th] + cells
                             data.append(full_row)
 
-                        df = pd.DataFrame(data, columns=headers)
-                        self.dataframes.append((preceding_h2, df))
+                        self.df = pd.DataFrame(data, columns=headers)
+                        self.dataframes.append((preceding_h2, self.df))
 
                 except Exception as e:
                     logger.error(f"Error extracting data from table: {e}")
                     print(f"Error extracting data from table: {e}")
                     continue
 
-            for name_of_table, df in self.dataframes:
-                filename = f"{name_of_table}.csv"
-                df.to_csv(filename, index=False)
-                print(f"Saved {filename}")
+            for name_of_table, self.df in self.dataframes:
+                self.filename = f"{name_of_table}.csv"
+                self.df.to_csv(self.filename, index=False)
+                print(f"Saved {self.filename}")
 
             logger.info(f"Processed {url} successfully.")
             return f"Processed {url} successfully. Data saved to CSV files."
@@ -119,14 +119,17 @@ class Allscale:
             logger.error(f"Error while checking {url}: {e}")
             print(f"Error while checking {url}: {e}")
         return "Error: Unable to process page."
-
 if __name__ == "__main__":
     driver_path = r"C:\\Users\\HP\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe"
     scraper = Allscale(driver_path)
     user_input = input("Enter keywords to search for URLs (separated by spaces): ")
     user_input = user_input.split()  # Split input into a list of keywords
 
-    urls = find_url_by_keywords("selenium_scraped.txt", *user_input)
+    urls = find_url_by_keywords("selenium_scraped.txt", *user_input, self=scraper)
+    if not urls:
+        logger.info("No URLs found with the given keywords.")
+        print("No URLs found with the given keywords.")
+        exit()
     try:
         for u in urls:
             result = scraper.check_url(u)

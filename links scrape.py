@@ -14,13 +14,14 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-gpu')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--enable-unsafe-swiftshader')
+chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument("--window-size=1920,1080")
+chrome_options.add_argument("--log-level=3")
 
-# Create a Service object pointing to chromedriver executable
 service = Service(CHROMEDRIVER_PATH)
-
 # Initialize WebDriver with options and service
 driver = webdriver.Chrome(service=service, options=chrome_options)
-
+#base url for wepages i want to extract data from
 base_url = "https://fbref.com/en/comps"
 visited = set()
 to_visit = [base_url]

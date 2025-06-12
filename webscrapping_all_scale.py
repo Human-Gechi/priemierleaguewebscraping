@@ -5,12 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from dotenv import load_dotenv
-import os
 import re
 # Importing necessary libraries
-# Load environment variables
-
 
 # Seting up logging
 logging.basicConfig(
@@ -25,8 +21,8 @@ logger = logging.getLogger(__name__)
 with open("selenium_scraped.txt", "r") as file:
     urls = [line.strip() for line in file if line.strip()]
 logger.info("Found the URLs")
-def find_url_by_keywords(filepath, *keywords, self):
-        self.links = []
+def find_url_by_keywords(filepath, *keywords):
+        links = []
         with open(filepath, 'r') as file:
             for line in file:
                 if "/comps/" in line:
@@ -35,8 +31,8 @@ def find_url_by_keywords(filepath, *keywords, self):
 
                     normalized = re.sub(r'[^a-z0-9]', '', suffix.lower())
                     if all(keyword.lower() in normalized for keyword in keywords):
-                        self.links.append(line.strip())
-        return self.links
+                        links.append(line.strip())
+        return links
 class Allscale:
     def __init__(self, driver_path):
         options = Options()
@@ -45,7 +41,13 @@ class Allscale:
         options.add_argument("--disable-infobars")
         options.add_argument("--disable-extensions")
         options.add_argument("--incognito")
-        options.add_argument("--no-sandbox")
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--enable-unsafe-swiftshader')
+        options.add_argument("--enable-webgl")
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--log-level=3")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument(
             "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/135.0.0.0 Safari/537.36"
@@ -61,15 +63,15 @@ class Allscale:
             print(f"Checking URL: {url}")
             time.sleep(3)  # Time for the page to load in the website
 
-            # Find all h2 headers and tables in each webpage
+            #locating all the  h2 headers and tables in each webpage
             h2_elements = self.driver.find_elements(By.TAG_NAME, "h2")
             tables = self.driver.find_elements(By.TAG_NAME, "table")
 
             # Get the locations of h2s and tables
             h2_locations = [(h2.location['y'], h2.text) for h2 in h2_elements]
 
-            self.dataframes = []
-
+            self.dataframes = [] # lsit of dataframes per webpage
+            #looping through each table in a webpage and extracting data
             for table in tables:
                 try:
                     table_y = table.location['y']
@@ -108,32 +110,9 @@ class Allscale:
                     print(f"Error extracting data from table: {e}")
                     continue
 
-            for name_of_table, self.df in self.dataframes:
-                self.filename = f"{name_of_table}.csv"
-                self.df.to_csv(self.filename, index=False)
-                print(f"Saved {self.filename}")
-
             logger.info(f"Processed {url} successfully.")
             return f"Processed {url} successfully. Data saved to CSV files."
         except Exception as e:
             logger.error(f"Error while checking {url}: {e}")
             print(f"Error while checking {url}: {e}")
         return "Error: Unable to process page."
-if __name__ == "__main__":
-    driver_path = r"C:\\Users\\HP\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe"
-    scraper = Allscale(driver_path)
-    user_input = input("Enter keywords to search for URLs (separated by spaces): ")
-    user_input = user_input.split()  # Split input into a list of keywords
-
-    urls = find_url_by_keywords("selenium_scraped.txt", *user_input, self=scraper)
-    if not urls:
-        logger.info("No URLs found with the given keywords.")
-        print("No URLs found with the given keywords.")
-        exit()
-    try:
-        for u in urls:
-            result = scraper.check_url(u)
-            print(result)
-        logger.info("All URLs processed.")
-    finally:
-        scraper.driver.quit()  # closing webbrowser
